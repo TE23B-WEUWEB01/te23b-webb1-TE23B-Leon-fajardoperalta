@@ -1,0 +1,32 @@
+body {
+     background-color: blanchedalmond;
+     background-image: url("./bilder/captain\ cat.png");
+}
+table{
+    background-color: rgba(69, 0, 0, 0.612);
+    width: 1000px;
+    margin: auto;
+}
+caption{
+    background-color: blanchedalmond;
+    padding: 10px;
+    font-size: 50;
+    color: white;
+    font-weight: bold;
+    background-image: url("./bilder/captain\ cat.png");
+}
+tr{
+
+}
+th{
+    padding: 15px;
+    font-size: 25px;
+}
+td{
+    background-color: rgba(69, 0, 0, 0.612);
+    padding: 10px;
+}
+img{
+    width: 150px;
+    position: center;
+}
