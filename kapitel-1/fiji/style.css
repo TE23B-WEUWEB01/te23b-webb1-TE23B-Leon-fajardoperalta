@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-image: url("./bilder/beach\ 111.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+h1 {
+    font-family: "Lora", serif;
+    font-size: 100px;
+    color: #ffff;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 pink;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+h2 {
+    font-family: "Lora", serif;
+    font-size: 50px;
+    color: #ffff;
+    text-shadow: 3px 3px 2px pink;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+p {
+    font-family: "Lora", serif;
+    font-size: 25px;
+
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: purple;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #ffff;
+    border-radius: 15px;
+    margin-left: 1000px;
+}
