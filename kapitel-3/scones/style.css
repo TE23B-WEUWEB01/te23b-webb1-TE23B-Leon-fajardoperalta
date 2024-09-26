@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* sidans styling */
+
+body {
+    background-image: url(/bilder/IMG_0259.jpg);
+    background-repeat: repeat; 
+    margin: auto;
+    /* jag vet att jag kan göra no repeat  */
+
+}
+
+/* Rubikens utseende */
+
+h1 {
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    margin-bottom: 10px;
+    /* innhehållets utseende */
+}
+
+/* text */
+
+p {
+    font-size: small;
+    margin-bottom: 5px;
+    /* text under rubriker/text */
+}
+
+ul {
+    list-style: circle;
+
+    /* some sorterar alla punkter */
+}
+
+li {
+    margin-left: 20px;
+    margin-bottom: 2.5px;
+    /* text i punkt form */
+}
+
+img {
+    max-width: 500px;
+    max-height: 200px;
+}
+
+div {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: gray;
+    padding: 50px;
+    border-radius: 10px;
+    border: 10px solid black;
+    color: black;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+
+}
