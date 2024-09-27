@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fredoka:wght@300..700&display=swap');
+
+
+
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* layoutens utseende */
+
+body{
+    background-image: url("./bilder/flower1.jpg")
+
+}
+
+.s1{
+    background:url(./bilder/flower1.jpg);
+    
+}
+
+.s2{
+    background:url(./bilder/flower2.jpg) ;
+
+}
+
+.s3{
+    background:url(./bilder/flower3.jpg) ;
+
+}
+
+.s4{
+    background:url(./bilder/flower4.jpg) ;
+
+}
+
+.s5{
+    background:url(./bilder/flower5.jpg) ;
+
+
+}
+.s6{
+    background:url(./bilder/flower6.jpg) ;
+
+}
+
+
+div{
+    background-color: gray;
+    width: 500px;
+    border: 5px dashed pink;
+    border-radius: 10px;
+    padding-left: 30px;
+    margin:auto;
+    margin-top: 200px;
+    font-family: "Fredoka", sans-serif;
+   
+
+}
+
+/* innehållets utseende */
+/* font-family: "Crimson Text", serif; */
+h1{
+    font-size: 40px;
+  margin-bottom: 15px;
+
+}
+
+p{
+    font-size: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: crimson;
+
+}
