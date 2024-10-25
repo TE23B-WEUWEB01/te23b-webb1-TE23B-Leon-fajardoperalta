@@ -19,6 +19,7 @@ h4,
 h5,
 h6,
 p,
+
 ul {
     margin: 0;
     padding: 0;
@@ -36,15 +37,15 @@ h1 {
 }
 
 div.container {
-    padding: 100px; 
-    
+    padding: 100px;
+
     background-color: gray;
     max-width: 600px;
     margin height: 800px;
     margin: auto;
 }
 
-div{
+div {
     margin-top: 50px;
     padding-top: 50px;
     background-color: purple;
@@ -71,7 +72,7 @@ h2 {
     margin-left: 50px;
 }
 
-img {  
+img {
     max-width: 400px;
     max-height: 500px;
     margin-left: 100px;
