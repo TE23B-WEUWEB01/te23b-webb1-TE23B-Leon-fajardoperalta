@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+body {
+    background-color: green;
+
+}
+.container{
+    margin: auto;
+    width: 50%;
+}
+div.columns {
+    background-color: red;
+    margin: auto;
+    width: 75%;
+    height: 25%;
+    margin-top: 5%;
+    display: flex;
+}
+
+div.links {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {}
+
+a a.nu {
+    
+    border: 10% solid black;
+
+}
+
+a.nu {
+    text-decoration: none;
+}
+
+img {
+    width: 50%;
+    padding-right: 5%;
+    
+
+}
+
+ul {}
+
+li {}
+
+ul {}
