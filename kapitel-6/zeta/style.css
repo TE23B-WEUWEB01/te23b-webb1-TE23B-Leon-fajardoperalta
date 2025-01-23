@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+}
+.container{
+    max-width: 100%;
+    max-height: 100%;
+}
+.meny{
+    max-height: 30%;
+    max-width: 100%;
+    display: flex;
+    background-image: url(./bilder/zeta\ fam.jpg);
+    padding-top: 2.5%;
+}
+.meny a{
+    text-decoration: none;
+    color: black;
+    max-width: 100%;
+    max-width: 50%;
+}
+.meny a .log{
+    max-width: 15%;
+    max-height: 10%;
+    margin: auto;
+}
+
+
+
+.produkter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5%;
+}
+.produkter img {
+    max-width: 25%;
+    max-height: 25%;
+}
+img {
+    max-width: 25%;
+    max-height: 25%;
+}
