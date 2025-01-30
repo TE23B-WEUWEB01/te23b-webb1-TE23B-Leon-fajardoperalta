@@ -1,0 +1,26 @@
+/* sidan */
+body
+.kontainer
+/* sidhuvud */
+header
+header h1
+header h2
+/* menyn */
+header nav
+header nav a
+header nav a.aktiv
+header nav a:hover
+/* sidans innhehåll */
+main
+main h3
+main figure
+main figure img
+main figure  figcaption
+main p
+/* sidohuvud */
+aside
+aside h4
+aside p 
+/* sidfoten */
+footer
+footer p
