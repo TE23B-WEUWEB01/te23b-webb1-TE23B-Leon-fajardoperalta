@@ -46,28 +46,36 @@ body {
     grid-template-areas:
         "sidhuvud sidhuvud"
         "artiklarna sidebar"
-        "sidfot sidfot"
+        "sidfot sidfot";
+        gap: 20px;
+        
     ;
 }
 
 header {
     grid-area: sidhuvud;
-    background-color: rosybrown;
+    padding: 20px;
 }
 
 main {
     grid-area: artiklarna;
     background-color: green;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 aside {
     grid-area: sidebar;
     background-color: magenta;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 footer {
     grid-area: sidfot;
     background-color: lightslategray;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 /* sidhuvud */
@@ -83,13 +91,29 @@ header h1 {
 header h2 {}
 
 /* menyn */
-header nav {}
+header nav {
+    background: rgb(81,89,126);
+background: linear-gradient(288deg, rgba(81,89,126,1) 14%, rgba(252,70,107,1) 100%);
 
-header nav a {}
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-header nav a.aktiv {}
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
 
-header nav a:hover {}
+header nav a.aktiv {
+    border-radius: 2px;
+    background-color: white;
+}
+
+header nav a:hover {
+    background-color: white;
+    border-radius: 2px;
+}
 
 /* sidans innhehåll */
 main {}
@@ -98,7 +122,12 @@ main article {}
 
 main article h3 {}
 
-main article figure {}
+main article figure {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid ;
+}
 
 main article figure img {}
 
