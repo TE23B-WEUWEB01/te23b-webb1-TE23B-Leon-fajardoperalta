@@ -34,13 +34,55 @@ body {
 }
 
 .kontainer {
-    width: 1000px;
-    margin: auto;
-    padding: 20px;
 }
 
 /* bygga layouten */
+/* för mobil 576 */
+@media (min-width: 576px){
+
+    .kontainer {
+    
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "artiklarna sidebar"
+            "sidfot sidfot";
+            gap: 20px;
+            
+        ;
+    }
+}
+/* för läs platta758 */
+@media (min-width: 768px){
+
+    .kontainer {
+    
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "artiklarna sidebar"
+            "sidfot sidfot";
+            gap: 20px;
+            
+        ;
+    }
+}
+/* för desktop med >0 1000px */
+@media (min-width: 1200px){
+
 .kontainer {
+    
+    width: 100%;
+    margin: auto;
+    padding: 20px;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-areas:
@@ -51,6 +93,8 @@ body {
         
     ;
 }
+}
+
 
 header {
     grid-area: sidhuvud;
