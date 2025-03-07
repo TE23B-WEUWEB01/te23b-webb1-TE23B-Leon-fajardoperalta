@@ -1,6 +1,8 @@
+
 /* regler bara för index.html */
 .wanderer {
     background: black;
+    color: #FFF;
 }
 .wanderer .vimeo {
     position: fixed;
@@ -22,6 +24,22 @@
     left: 50%;
     transform:  translate(-50%, -50%);
     border:none;
+}
 
+.wanderer main {
+    display: grid;
+    align-items: center;
+}
+/* sida 2 */
 
+.Ceres h1 {
+    color: navy;
+}
+
+.Ceres header nav a{
+
+}
+
+.Ceres header nav a:hover, .Ceres header nav a.active{
+    border-bottom: 3px solid navy;
 }
